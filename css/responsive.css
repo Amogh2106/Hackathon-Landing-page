@@ -1,0 +1,9 @@
+@media(max-width:768px){
+ body.menu-open{overflow:hidden}
+ nav{padding:.85rem 1rem}.nav-links{display:none}.nav-hamburger{display:block}.nav-cta{display:none}
+ .mobile-menu{padding:1.25rem}.hero-cta{min-height:52px}.countdown{grid-template-columns:repeat(2,1fr)}
+ .rules-grid,.prizes-wrap{grid-template-columns:1fr}.special-prizes{grid-template-columns:1fr 1fr}.judge-grid{grid-template-columns:1fr 1fr}
+ .floating-blocks{opacity:.35;pointer-events:none}.hero-grid{transform:none!important}
+ .section-title{font-size:clamp(2rem,10vw,4rem)}
+}
+@media(max-width:480px){.special-prizes,.judge-grid{grid-template-columns:1fr}.nav-logo{font-size:.52rem}.cta-big{font-size:clamp(2.5rem,16vw,5rem)}.tl-card{padding:1rem}.prize-block{padding:1.5rem 1rem}}
