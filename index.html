@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="BLOCK//24 — Build the impossible in 24 hours. A college hackathon in Mumbai.">
+<meta name="theme-color" content="#060c06">
+<title>BLOCK//24 — Build the Impossible</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+
+<div class="scan-lines" aria-hidden="true"></div>
+
+<nav role="navigation" aria-label="Main navigation">
+  <div class="nav-logo" aria-label="BLOCK//24">BLOCK//24</div>
+  <ul class="nav-links" role="list">
+    <li><a href="#about">About</a></li>
+    <li><a href="#timeline-section">Timeline</a></li>
+    <li><a href="#prizes">Prizes</a></li>
+    <li><a href="#judges">Judges</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ul>
+  <button class="nav-cta" onclick="document.getElementById('final-cta').scrollIntoView({behavior:'smooth'})">REGISTER</button>
+  <button class="nav-hamburger" id="nav-ham" aria-label="Open menu" aria-expanded="false">☰</button>
+</nav>
+
+<div class="mobile-menu" id="mobile-menu" role="menu">
+  <a href="#about">About</a>
+  <a href="#timeline-section">Timeline</a>
+  <a href="#prizes">Prizes</a>
+  <a href="#judges">Judges</a>
+  <a href="#faq">FAQ</a>
+  <button class="nav-cta" style="width:100%;margin-top:1rem;padding:1rem;">ENTER THE BUILD →</button>
+</div>
+
+<!-- HERO -->
+<section id="hero" aria-label="Hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+
+  <svg style="position:absolute;bottom:0;left:0;right:0;width:100%;height:160px;" viewBox="0 0 1200 160" preserveAspectRatio="none" aria-hidden="true">
+    <rect x="0" y="120" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="40" y="120" width="40" height="40" fill="#5c3d1e"/>
+    <rect x="40" y="80" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="80" y="80" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="80" y="120" width="40" height="40" fill="#5c3d1e"/>
+    <rect x="120" y="120" width="40" height="40" fill="#5c3d1e"/>
+    <rect x="160" y="120" width="40" height="40" fill="#5c3d1e"/>
+    <rect x="200" y="120" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="200" y="80" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="240" y="80" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="240" y="40" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="280" y="40" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="280" y="80" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="280" y="120" width="40" height="40" fill="#5c3d1e"/>
+    <rect x="320" y="120" width="40" height="40" fill="#5c3d1e"/>
+    <rect x="360" y="120" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="360" y="80" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="400" y="80" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="400" y="120" width="40" height="40" fill="#5c3d1e"/>
+    <rect x="440" y="120" width="40" height="40" fill="#5c3d1e"/>
+    <rect x="480" y="120" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="480" y="80" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="520" y="80" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="520" y="40" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="560" y="40" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="560" y="80" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="560" y="120" width="40" height="40" fill="#5c3d1e"/>
+    <rect x="600" y="120" width="40" height="40" fill="#5c3d1e"/>
+    <rect x="640" y="120" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="640" y="80" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="680" y="80" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="680" y="120" width="40" height="40" fill="#5c3d1e"/>
+    <rect x="720" y="120" width="40" height="40" fill="#5c3d1e"/>
+    <rect x="760" y="120" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="760" y="80" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="800" y="80" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="800" y="40" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="840" y="40" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="840" y="80" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="840" y="120" width="40" height="40" fill="#5c3d1e"/>
+    <rect x="880" y="120" width="40" height="40" fill="#5c3d1e"/>
+    <rect x="920" y="120" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="920" y="80" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="960" y="80" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="960" y="120" width="40" height="40" fill="#5c3d1e"/>
+    <rect x="1000" y="120" width="40" height="40" fill="#5c3d1e"/>
+    <rect x="1040" y="120" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="1080" y="120" width="40" height="40" fill="#5c3d1e"/>
+    <rect x="1120" y="120" width="40" height="40" fill="#1a5c1a"/>
+    <rect x="1160" y="120" width="40" height="40" fill="#5c3d1e"/>
+    <rect x="0" y="140" width="1200" height="20" fill="#0a0f0a"/>
+  </svg>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">24-HOUR COLLEGE HACKATHON · MUMBAI</div>
+    <h1 class="hero-title">
+      BUILD<br>
+      THE <span class="line-green glow-text">IMPOSSIBLE</span>
+    </h1>
+    <p class="hero-sub">24 HOURS. ONE CHALLENGE. INFINITE BUILDS.</p>
+    <div class="hero-meta">
+      <div class="meta-item">
+        <span class="meta-label">DATE</span>
+        <span class="meta-value">17—18 OCT 2026</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">LOCATION</span>
+        <span class="meta-value">MUMBAI, INDIA</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">PRIZE POOL</span>
+        <span class="meta-value meta-prize">₹2,00,000+</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">DURATION</span>
+        <span class="meta-value">24 HOURS</span>
+      </div>
+    </div>
+    <a class="hero-cta" href="#final-cta" role="button">ENTER THE BUILD →</a>
+  </div>
+
+  <div class="floating-blocks" aria-hidden="true">
+    <svg viewBox="0 0 300 300" style="width:100%;height:100%">
+      <g style="animation:float 3s ease-in-out infinite">
+        <rect x="60" y="60" width="50" height="50" fill="#1a5c1a" rx="2"/>
+        <rect x="60" y="60" width="50" height="8" fill="#22c55e" rx="2"/>
+        <rect x="60" y="60" width="8" height="50" fill="#2d7a2d"/>
+      </g>
+      <g style="animation:float 4s ease-in-out infinite 0.5s">
+        <rect x="130" y="30" width="40" height="40" fill="#4a4a4a" rx="2"/>
+        <rect x="130" y="30" width="40" height="6" fill="#6b7280" rx="2"/>
+        <rect x="130" y="30" width="6" height="40" fill="#555"/>
+      </g>
+      <g style="animation:float 3.5s ease-in-out infinite 1s">
+        <rect x="200" y="80" width="60" height="60" fill="#00d4aa" opacity="0.3" rx="2"/>
+        <rect x="200" y="80" width="60" height="8" fill="#00d4aa" opacity="0.5" rx="2"/>
+        <text x="230" y="116" font-family="'Press Start 2P'" font-size="12" fill="#00d4aa" text-anchor="middle" opacity="0.8">💎</text>
+      </g>
+      <g style="animation:float 4.5s ease-in-out infinite 1.5s">
+        <rect x="80" y="140" width="45" height="45" fill="#5c3d1e" rx="2"/>
+        <rect x="80" y="140" width="45" height="7" fill="#7a5230" rx="2"/>
+      </g>
+      <g style="animation:float 3s ease-in-out infinite 2s">
+        <rect x="160" y="160" width="50" height="50" fill="#1a5c1a" rx="2"/>
+        <rect x="160" y="160" width="50" height="8" fill="#22c55e" rx="2"/>
+      </g>
+      <g style="animation:float 5s ease-in-out infinite 0.8s">
+        <rect x="240" y="150" width="35" height="35" fill="#ff6b00" opacity="0.6" rx="2"/>
+        <rect x="240" y="150" width="35" height="5" fill="#ff8c00" opacity="0.8" rx="2"/>
+      </g>
+      <circle cx="120" cy="200" r="3" fill="#22c55e" opacity="0.6" style="animation:float 2s ease-in-out infinite 0.3s"/>
+      <circle cx="200" cy="120" r="2" fill="#00d4aa" opacity="0.5" style="animation:float 2.5s ease-in-out infinite 0.7s"/>
+      <circle cx="80" cy="90" r="2" fill="#22c55e" opacity="0.4" style="animation:float 3s ease-in-out infinite 1.2s"/>
+    </svg>
+  </div>
+</section>
+
+<!-- COUNTDOWN -->
+<div id="countdown" role="region" aria-label="Countdown">
+  <div class="countdown-label">THE BUILD BEGINS IN</div>
+  <div class="countdown-grid">
+    <div class="count-unit">
+      <div class="count-num" id="cd-days" aria-label="days">00</div>
+      <div class="count-lbl">DAYS</div>
+    </div>
+    <div class="count-sep" aria-hidden="true">:</div>
+    <div class="count-unit">
+      <div class="count-num" id="cd-hours" aria-label="hours">00</div>
+      <div class="count-lbl">HOURS</div>
+    </div>
+    <div class="count-sep" aria-hidden="true">:</div>
+    <div class="count-unit">
+      <div class="count-num" id="cd-mins" aria-label="minutes">00</div>
+      <div class="count-lbl">MINUTES</div>
+    </div>
+    <div class="count-sep" aria-hidden="true">:</div>
+    <div class="count-unit">
+      <div class="count-num" id="cd-secs" aria-label="seconds">00</div>
+      <div class="count-lbl">SECONDS</div>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about" aria-label="About BLOCK//24">
+  <div class="section-label">ABOUT</div>
+  <div class="about-grid">
+    <div class="about-text">
+      <h2 class="section-title">WHAT ARE YOU BUILDING?</h2>
+      <p>BLOCK//24 is a 24-hour college hackathon where students collaborate, experiment, and build ambitious technology projects from scratch.</p>
+      <p>Like placing blocks in a world of infinite possibility — you start with raw materials and transform them into something no one has ever seen.</p>
+      <div class="tracks-grid" style="margin-top:2rem" role="list">
+        <div class="track-card" role="listitem">
+          <div class="track-icon">🤖</div>
+          <div class="track-name">AI / ML</div>
+          <div class="track-desc">Intelligent systems</div>
+        </div>
+        <div class="track-card" role="listitem">
+          <div class="track-icon">🌐</div>
+          <div class="track-name">Web / Mobile</div>
+          <div class="track-desc">User-facing products</div>
+        </div>
+        <div class="track-card" role="listitem">
+          <div class="track-icon">🔧</div>
+          <div class="track-name">Hardware</div>
+          <div class="track-desc">Physical builds</div>
+        </div>
+        <div class="track-card" role="listitem">
+          <div class="track-icon">🎮</div>
+          <div class="track-name">Games</div>
+          <div class="track-desc">Play experiences</div>
+        </div>
+        <div class="track-card" role="listitem">
+          <div class="track-icon">🌱</div>
+          <div class="track-name">Social Impact</div>
+          <div class="track-desc">Change the world</div>
+        </div>
+        <div class="track-card" role="listitem">
+          <div class="track-icon">⚡</div>
+          <div class="track-name">Dev Tools</div>
+          <div class="track-desc">Build for builders</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="build-flow" role="list" aria-label="Build process">
+        <div class="flow-item" role="listitem">
+          <span class="flow-num">01</span>
+          <span class="flow-word">IDEA</span>
+          <span class="flow-arrow">→</span>
+        </div>
+        <div class="flow-item" role="listitem">
+          <span class="flow-num">02</span>
+          <span class="flow-word">DESIGN</span>
+          <span class="flow-arrow">→</span>
+        </div>
+        <div class="flow-item" role="listitem">
+          <span class="flow-num">03</span>
+          <span class="flow-word">CODE</span>
+          <span class="flow-arrow">→</span>
+        </div>
+        <div class="flow-item" role="listitem">
+          <span class="flow-num">04</span>
+          <span class="flow-word">BUILD</span>
+          <span class="flow-arrow">→</span>
+        </div>
+        <div class="flow-item" role="listitem">
+          <span class="flow-num">05</span>
+          <span class="flow-word">SHIP</span>
+          <span class="flow-arrow">✓</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- THEME -->
+<section aria-label="Theme section">
+  <div class="section-label">THE THEME</div>
+  <h2 class="section-title">BUILD THE IMPOSSIBLE</h2>
+  <p style="font-size:1.1rem;color:rgba(232,228,217,0.5);max-width:600px;line-height:1.7;margin-bottom:1rem;">Six principles. One challenge. In 24 hours, go from blank canvas to shipped product.</p>
+  <div class="theme-blocks" role="list">
+    <div class="theme-block" role="listitem">
+      <div class="theme-block-num">01</div>
+      <div class="theme-block-word">CREATE</div>
+      <div class="theme-block-line"></div>
+    </div>
+    <div class="theme-block" role="listitem">
+      <div class="theme-block-num">02</div>
+      <div class="theme-block-word">EXPERIMENT</div>
+      <div class="theme-block-line"></div>
+    </div>
+    <div class="theme-block" role="listitem">
+      <div class="theme-block-num">03</div>
+      <div class="theme-block-word">COLLABORATE</div>
+      <div class="theme-block-line"></div>
+    </div>
+    <div class="theme-block" role="listitem">
+      <div class="theme-block-num">04</div>
+      <div class="theme-block-word">BREAK</div>
+      <div class="theme-block-line"></div>
+    </div>
+    <div class="theme-block" role="listitem">
+      <div class="theme-block-num">05</div>
+      <div class="theme-block-word">REBUILD</div>
+      <div class="theme-block-line"></div>
+    </div>
+    <div class="theme-block" role="listitem">
+      <div class="theme-block-num">06</div>
+      <div class="theme-block-word">SHIP</div>
+      <div class="theme-block-line"></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- TIMELINE -->
+<section id="timeline-section" aria-label="Event timeline">
+  <div style="max-width:1100px;margin:0 auto;padding:0 2rem;">
+    <div class="section-label">SCHEDULE</div>
+    <h2 class="section-title">THE 24-HOUR<br><span class="line-green">JOURNEY</span></h2>
+    <p style="font-size:1rem;color:rgba(232,228,217,0.4);margin-bottom:3rem;">From registration to victory — every hour counts.</p>
+
+    <div class="timeline-wrap">
+      <div class="timeline-line" aria-hidden="true"></div>
+      <div id="tl-items"></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PRIZES -->
+<section id="prizes" aria-label="Prizes">
+  <div class="section-label">REWARDS</div>
+  <h2 class="section-title">PRIZE POOL<br><span style="color:var(--mc-emerald)">₹2,00,000+</span></h2>
+  <p style="font-size:1rem;color:rgba(232,228,217,0.4);margin-bottom:3rem;">For the builders who ship the impossible.</p>
+
+  <div class="prizes-wrap">
+    <div class="prize-block">
+      <div class="prize-rank">2ND PLACE</div>
+      <div class="prize-amount">₹50,000</div>
+      <div class="prize-label">Runner Up</div>
+    </div>
+    <div class="prize-block prize-first">
+      <div class="prize-rank">1ST PLACE</div>
+      <div class="prize-amount">₹1,00,000</div>
+      <div class="prize-label">Grand Champion</div>
+    </div>
+    <div class="prize-block">
+      <div class="prize-rank">3RD PLACE</div>
+      <div class="prize-amount">₹25,000</div>
+      <div class="prize-label">Third Place</div>
+    </div>
+  </div>
+
+  <p style="font-family:var(--font-pixel);font-size:0.45rem;color:rgba(232,228,217,0.3);letter-spacing:0.2em;margin-bottom:1.5rem;">SPECIAL AWARDS</p>
+  <div class="special-prizes">
+    <div class="sp-card">
+      <div class="sp-icon">🤖</div>
+      <div class="sp-name">Best AI Project</div>
+      <div class="sp-label">SPECIAL AWARD</div>
+    </div>
+    <div class="sp-card">
+      <div class="sp-icon">🎨</div>
+      <div class="sp-name">Best Design</div>
+      <div class="sp-label">SPECIAL AWARD</div>
+    </div>
+    <div class="sp-card">
+      <div class="sp-icon">🌱</div>
+      <div class="sp-name">Best Social Impact</div>
+      <div class="sp-label">SPECIAL AWARD</div>
+    </div>
+    <div class="sp-card">
+      <div class="sp-icon">🌟</div>
+      <div class="sp-name">Best Beginner Hack</div>
+      <div class="sp-label">SPECIAL AWARD</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- JUDGES -->
+<section id="judges" aria-label="Judges and mentors">
+  <div class="section-label">JURY</div>
+  <h2 class="section-title">JUDGES &<br>MENTORS</h2>
+  <p style="font-size:1rem;color:rgba(232,228,217,0.4);margin-bottom:2.5rem;">Industry leaders who've shipped at scale.</p>
+  <div class="judges-grid" id="judges-grid"></div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SPONSORS -->
+<section aria-label="Sponsors">
+  <div class="section-label">PARTNERS</div>
+  <h2 class="section-title">POWERED BY</h2>
+  <p style="font-size:1rem;color:rgba(232,228,217,0.4);margin-bottom:2.5rem;">The companies fueling the next generation of builders.</p>
+  <div class="sponsors-grid">
+    <div class="sponsor-slot"><span class="sponsor-name">TECHCORP</span></div>
+    <div class="sponsor-slot"><span class="sponsor-name">CLOUDLAB</span></div>
+    <div class="sponsor-slot"><span class="sponsor-name">NEXUS</span></div>
+    <div class="sponsor-slot"><span class="sponsor-name">DEVFORGE</span></div>
+    <div class="sponsor-slot"><span class="sponsor-name">BYTEWORKS</span></div>
+  </div>
+  <p style="font-family:var(--font-pixel);font-size:0.4rem;color:rgba(232,228,217,0.15);letter-spacing:0.2em;text-align:center;margin-top:1.5rem;">SPONSOR BLOCK//24 · CONTACT@BLOCK24.DEV</p>
+</section>
+
+<div class="divider"></div>
+
+<!-- RULES -->
+<section aria-label="Rules and eligibility">
+  <div class="section-label">RULES</div>
+  <h2 class="section-title">ELIGIBILITY &<br>GROUND RULES</h2>
+  <div class="rules-grid" style="margin-top:2.5rem">
+    <div class="rules-block">
+      <div class="rules-title">ELIGIBILITY</div>
+      <ul class="rules-list">
+        <li>Open to all college students</li>
+        <li>Teams of 2–4 members</li>
+        <li>Beginners are very welcome</li>
+        <li>Valid student ID required at check-in</li>
+      </ul>
+    </div>
+    <div class="rules-block">
+      <div class="rules-title">THE RULES</div>
+      <ul class="rules-list">
+        <li>Projects must be built during the hackathon</li>
+        <li>Open-source libraries are allowed</li>
+        <li>Pre-existing projects cannot be submitted</li>
+        <li>All teams must submit before the deadline</li>
+        <li>Judging decisions are final</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- FAQ -->
+<section id="faq" aria-label="Frequently asked questions">
+  <div class="section-label">FAQ</div>
+  <h2 class="section-title">QUESTIONS?<br>WE'VE GOT YOU.</h2>
+  <div class="faq-list" style="margin-top:2.5rem" id="faq-list"></div>
+</section>
+
+<!-- FINAL CTA -->
+<section id="final-cta" aria-label="Registration call to action">
+  <p class="cta-big"><span class="dim">STOP</span><br>SCROLLING.</p>
+  <p class="cta-big" style="margin-top:0.5rem">START<br><span style="color:var(--mc-green-bright)" class="glow-text">BUILDING.</span></p>
+  <div class="cta-sub">24 HOURS · ONE SHOT · MUMBAI 2026</div>
+  <p class="cta-question">WHAT WILL YOU BUILD?</p>
+  <a class="hero-cta" href="#" role="button" style="font-size:1.2rem;padding:1.2rem 3rem">ENTER THE BUILD →</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="logo">BLOCK//24</div>
+      <p>A 24-hour college hackathon. Build the impossible — October 17–18, 2026 in Mumbai, India.</p>
+    </div>
+    <div class="footer-col">
+      <h4>NAVIGATE</h4>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#timeline-section">Timeline</a></li>
+        <li><a href="#prizes">Prizes</a></li>
+        <li><a href="#judges">Judges</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>CONNECT</h4>
+      <ul>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">Discord</a></li>
+        <li><a href="#">contact@block24.dev</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2026 BLOCK//24 · MUMBAI, INDIA · BUILD THE IMPOSSIBLE</span>
+    <span style="font-family:var(--font-pixel);font-size:0.38rem;color:rgba(34,197,94,0.3);letter-spacing:0.2em">▪ ▪ ▪</span>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js" defer></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
